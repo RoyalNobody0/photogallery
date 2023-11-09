@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TK Photography</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" media="(min-width: 880px)" href="style.css">
+        <link rel="stylesheet" media="(min-width: 1300px)" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="top">TK Photography</h1>
+            <nav>
+                <h2>Main Navigation</h2>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#galley">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top">top</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p id="hello">Hello!</p>
+                <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+            </section>
+
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+
+                <div id="photo-grid">
+                    <figure>
+                        <img src="images/Chile.png">
+                        <figcaption class="white bottom">Chile, 2001</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Guatemala.png">
+                        <figcaption class="white top">Guatemala, 1997</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Hawaii.png">
+                        <figcaption class="white bottom">Hawaii, 2010</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Iran.png">
+                        <figcaption class="black top">Iran, 1999</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Ireland.png" class="span-up">
+                        <figcaption class="black top">Ireland, 2012</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Italy.png">
+                        <figcaption class="black bottom">Italy. 2015</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Moab-Desert.png">
+                        <figcaption class="white bottom">Moab Desert, 2020</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Rocky-Mountains.png">
+                        <figcaption class="black top">Rocky Mountains, 2009</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Switzerland.png">
+                        <figcaption class="black top">Switzerland, 2014</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/UK.png">
+                        <figcaption class="black top">Uk, 2005</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/USA.png">
+                        <figcaption class="black top">USA, 2021</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Wyoming.png">
+                        <figcaption class="white top">Wyoming, 2021</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <h2 id="contact">Contact</h2>
+            <p>Please fill out this form and I'll connect with you soon.</p>
+
+            <section id="contact-form">
+                <h2>Your contact information</h2>
+
+                <form action="index.html" method="POST">
+                    <div>
+                        <label for="full-name" class="l-one">Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Your full name" class="i-one">
+    
+    
+                        <label for="mail" class="l-two">Email</label>
+                        <input type="email" id="mail" name="mail" placeholder="Enter your email address" class="i-two">
+    
+                        <label for="message" class="l-three">Message</label>
+                        <input type="text" id="message" name="message" placeholder="What can I help you with?" class="i-three">    
+                    </div>
+                    
+
+                    <input type="submit" value="Submit">
+                </form> 
+                <small>Copyright 2021 TK Photography</small>
+            </section>
+        </footer>
+    </body>
+
+</html>
